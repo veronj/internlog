@@ -1,0 +1,27 @@
+{
+    "name": "ayctor/internlog",
+    "description": "add a log class to your app",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "logs"
+    ],
+    "authors": [
+        {
+            "name": "Jean-Baptiste Véron",
+            "email": "jean-baptiste@ayctor.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ayctor\\Internlog\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ayctor\\Internlog\\Tests\\":"tests/"
+        }
+    }
+}
